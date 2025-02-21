@@ -34,7 +34,7 @@ function acutualizarLista(){
 // limpiar el contenido actual de la lista
     listaAmigos.innerHTML = '';
  // recorrer el array en un ciclo for 
-    for(let i = 0; 1 <amigos.length; 1++){
+    for(let i = 0; 1 <amigos.length; i++){
         const li = document.createElement('li');
         li.textContent = amigos(i);
         listaAmigos.appendChild(li);
