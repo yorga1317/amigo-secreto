@@ -1,6 +1,5 @@
 // El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
-// mi primer hola mundo 
-console.log('hola, mundo');
+
 // array donde almacenará los nombres de los amigos ingresados.
 let amigos = [];
 
@@ -29,4 +28,20 @@ function agregarAmigo (){
     acutualizarLista();
 
 }
+// funcion para actualizar la lista de amigos en la interfaz.
+function acutualizarLista(){
+    const listaAmigos = document.getElementById('listaAmigos');
+// limpiar el contenido actual de la lista
+    listaAmigos.innerHTML = '';
+ // recorrer el array en un ciclo for 
+    for(let i = 0; 1 <amigos.length; 1++){
+        const li = document.createElement('li');
+        li.textContent = amigos(i);
+        listaAmigos.appendChild(li);
+
+    }
+}
+
+
+
 
